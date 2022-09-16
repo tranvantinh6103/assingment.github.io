@@ -1,0 +1,82 @@
+@media (max-width: 768px) {
+  .anh-sinh-vien {
+    display: none;
+  }
+
+  .containers {
+    display: block;
+    text-align: left;
+    padding: 32px;
+    font-size: 28px;
+  }
+
+  .containers .containers-icon {
+    border: none;
+  }
+
+  .containers .containers-icon-thongtin,
+  .containers .containers-icon-chungchi {
+    border: none;
+  }
+
+  .container-target {
+    background-color: #f1f3f5;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* phần giải thưởng */
+  .certificate-text {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0px;
+    border-right: none;
+    width: 100%;
+  }
+
+  .certificate-text img {
+    width: 100%;
+  }
+
+  .certificate-container ul {
+    list-style-type: none;
+    padding-left: 3px;
+
+    margin: 0px;
+  }
+
+  .certificate-text p {
+    padding-left: 0px;
+    padding-bottom: 0px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  /* phần dự án */
+
+  .duan-navar-fix {
+    display: block;
+  }
+
+  .duan-navar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .digital-icon {
+    width: 50px;
+  }
+
+  .digital-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* TIEMLINE SECTION */
+  .project-icon {
+    padding-left: 14px;
+  }
+}
